@@ -8,9 +8,14 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      /*container: Centers your content and adds padding for a nicer layout.
+        colors: Adds a custom color (accent) to use in your project. */
+        container : {
+        center: true,
+        padding: "15px"
+      },
+      colors : {
+       accent: "08E95E"
       },
     },
   },
