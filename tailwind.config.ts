@@ -16,6 +16,7 @@ export default {
       },
       colors : {
        accent: "08E95E"
+       
       },
     },
   },
